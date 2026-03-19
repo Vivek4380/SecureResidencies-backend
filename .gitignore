@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+
+# Build files
+target/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+application.properties
+*.env
