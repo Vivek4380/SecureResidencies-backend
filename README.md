@@ -57,7 +57,7 @@ Students book cleaning slots. Wardens track uncleaned rooms.
 | POST | /api/bookings | Book a cleaning slot |
 | GET | /api/bookings | Get all bookings |
 | GET | /api/bookings/{id} | Get booking by ID |
-| GET | /api/bookings/search | Search by date and room |
+| GET | /api/bookings/search?date=&roomNumber= | Search by date and room |
 | GET | /api/bookings/uncleaned | Get uncleaned rooms |
 | PATCH | /api/bookings/{id}/mark-cleaned | Mark as cleaned |
 | DELETE | /api/bookings/{id} | Delete booking |
